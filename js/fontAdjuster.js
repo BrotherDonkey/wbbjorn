@@ -32,12 +32,11 @@ const makeParaLarger = function(e){
   };
 };
 
-//adding event listeners on two + - buttons
-// fontSmaller.addEventListener('touchstart', makeParaSmaller);
-// fontLarger.addEventListener('touchstart', makeParaLarger);
-// fontLarger.addEventListener('touch', preventDefaultLar(evt));
-//BUT DON'T DO IT WITHOUT PREVENT DEFAULT
-
+const prevDoub = function(e) {
+  e.preventDefault();
+}
 
 fontSmaller.addEventListener('click', makeParaSmaller);
 fontLarger.addEventListener('click', makeParaLarger);
+fontSmaller.addEventListener('dblclick', prevDoub);
+fontLarger.addEventListener('dblclick', prevDoub);

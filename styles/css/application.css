@@ -665,6 +665,9 @@ a.btn-a {
 .narTextCont {
   margin: 0 5vw; }
 
+#shortStoryPageHeading {
+  margin-top: 25px; }
+
 @media only screen and (min-width: 768px) {
   #sayGoodByeToTime, #deadMansParable, #taleOfTheFirestarter {
     width: 50vw;
