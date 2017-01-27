@@ -1,0 +1,248 @@
+.attribution {
+  font-size: 12px;
+  color: $babyPowder;
+  margin: 0;
+  padding: 0;
+}
+
+#attribution-link {
+  display: block;
+  margin-top: 10px;
+}
+
+#sayGoodByeToTime {
+    background-image: url(cssImages/storyCovers/saygoodbyetoTime500.png);
+    margin: 5vw;
+    background-size: cover;
+}
+
+#deadMansParable {
+    background-image: url(cssImages/storyCovers/deadMansParable.jpeg);
+    margin: 5vw;
+    background-size: cover;
+}
+
+#taleOfTheFirestarter {
+  background-image: url(cssImages/storyCovers/taleOfTheFirestarter.jpeg);
+  margin: 5vw;
+  background-size: cover;
+  text-align: center;
+}
+
+#sayGoodByeToTimeStory {
+    background-image: url(cssImages/storyCovers/saygoodbyetoTime500.png);
+    margin: 5vw;
+    background-size: cover;
+    text-align: center;
+
+}
+
+#deadMansParableStory {
+    background-image: url(cssImages/storyCovers/deadMansParable.jpeg);
+    margin: 5vw;
+    background-size: cover;
+    text-align: center;
+
+}
+
+#taleOfTheFirestarterStory {
+  background-image: url(cssImages/storyCovers/taleOfTheFirestarter.jpeg);
+  margin: 5vw;
+  background-size: cover;
+  text-align: center;
+}
+
+
+.firstHomePageButton {
+  display: block;
+}
+
+.secondHomePageButton {
+  display: none;
+}
+
+//novel content styling
+
+img.novelCover {
+  display: inline;
+  float: left;
+  height: auto;
+  width: auto;
+  max-width: 45%;
+  max-height: 250px;
+  margin: 5% 2.5% 0 2.5%;
+  border: 1px solid $deepBlue;
+}
+
+.novelTitle {
+  display: block;
+  padding: 5% 2.5% 0 0;
+}
+
+.novelDesciption {
+  display: block;
+  padding: 2.5% 2.5% 0 0;
+  font-size: .9em;
+  margin-bottom: 25px;
+}
+
+p#introduction {
+  margin: 2.5%;
+}
+
+.width10 {
+  width: 10%;
+  cursor: pointer;
+}
+
+.novelCoverCenter {
+  height: 50vh;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.novelTitle {
+  padding: 0 2.5vw;
+}
+
+.novelDesc {
+  padding: 0 2.5vw;
+}
+
+.novel-hr {
+  margin: 3vw 2.5vw;
+  border-color: rgba(255, 255, 255, 1);
+}
+
+a.btn-a {
+  text-align: center;
+}
+
+.narTextCont {
+  margin: 0 5vw;
+
+}
+
+@media only screen and (max-width : 321) {
+}
+
+@media only screen and (min-width : 590px) {
+}
+
+@media only screen and (min-width : 768px) {
+  #sayGoodByeToTime,#deadMansParable, #taleOfTheFirestarter {
+    width: 50vw;
+    height: 50vw;
+    margin: 25px auto;
+    border-radius: 50px;
+  }
+}
+
+@media only screen and (min-width : 1024px) {
+
+  .main-content {
+    padding: 35px 0 0 0;
+  }
+
+  p#introduction {
+    margin: 2.5% 10%;
+    background-color: $babyPowder;
+    padding: 25px;
+    border-radius: 10px;
+
+  }
+
+
+  // .footer p {
+  //   font-size: 1em;
+  // }
+
+  div.heading {
+    width: 70%;
+    // display: inline-block;
+    margin: 0 auto;
+    border-radius: 50px 50px 0 0;
+    background: $deepBlue;
+  }
+
+  .book {
+    max-width: 70%;
+    margin: 0 auto;
+    // background-color: $babyPowder;
+  }
+
+  .flexBtnContainer {
+    max-width: 70%;
+    margin: 0 auto;
+    // background-color: $babyPowder;
+    border: none;
+  }
+
+  div.headingBlue {
+    width: 70%;
+    padding: 25px 0 25px 0;
+    margin: 0 auto;
+    border-radius: 50px 50px 0 0;
+  }
+
+  .container {
+  }
+
+  div.lastNovelBtnContainer {
+    // border-radius: 0 0 50px 50px;
+    margin-bottom: 50px;
+    padding-bottom: 10px;
+  }
+
+  // #sayGoodByeToTime,#deadMansParable, #taleOfTheFirestarter {
+  //   width: 50vw;
+  //   height: 50vw;
+  //   margin: 25px auto;
+  //   border-radius: 50px;
+  // }
+
+  // .storyContainer {
+  //   display: flex;
+  //   justify-content: center; }
+
+  .storyTitle {
+    font-size: 2em;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+
+  .storyTagline {
+    font-size: 1.2em;
+    margin: 0 5vh 5vh 5vh;
+  }
+
+  #storyHeadingContainer {
+    padding-top: 25px;
+  }
+
+
+  #sayGoodByeToTimeStory,#deadMansParableStory, #taleOfTheFirestarterStory {
+    width: 33vw;
+    height: 33vw;
+    margin: 0 auto;
+  }
+
+  #sayGoodByeToTime,#deadMansParable, #taleOfTheFirestarter {
+    width: 30vw;
+    height: 30vw;
+    margin: 5px;
+    overflow: hidden;
+    margin: 0 auto;
+  }
+
+
+  #narTextConts {
+    max-width: 60%;
+    margin: 25px auto;
+    font-size: 24px;
+  }
+
+}

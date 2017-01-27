@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>All</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.css">
+  <link rel="stylesheet" href="styles/css/application.css">
+</head>
+<body>
+  <div id="main-container" class="container">
+    <header>
+      <!-- overlay menu -->
+      <div id="overlayMenu" class="hide">
+        <img id="exitNav" src="assets/essentialIcons/svg/error.svg" alt="navigation icon">
+        <h1 id="navTitle">w.b. bjorn</h1>
+        <p class="overlayMenuSubtitle">"The wolf's eyes had not left him since they opened. Faraji paced forward guardedly. With meticulousness he surveyed each of the great chains that held the beast in place, seeing how the threads of this world circled them, how they skipped and danced along and wound eventually into the paws of the animal that was now surveying him. Its eyes divulged an acute intelligence."<br><br>from <i>The Fall of Shanghai</i></p>
+        <ul id="flexMenu">
+            <li class="flexMenuItem">
+              <a class="navLink" href="index.html">
+              <img class="overlayIcon" src="assets/essentialIcons/svg/clock.svg" alt="Home">
+              <h6 class="overlayMenuH6">home</h6>
+              </a>
+            </li>
+            <li class="flexMenuItem"><a class="navLink" href="novels.html">
+              <img class="overlayIcon" src="assets/essentialIcons/svg/agenda-1.svg" alt="Novels">
+              <h6 class="overlayMenuH6">novels</h6>
+            </a></li>
+            <li class="flexMenuItem"><a class="navLink" href="shortStories.html">
+              <img class="overlayIcon" src="assets/essentialIcons/svg/witch.svg" alt="Short Stories">
+              <h6 class="overlayMenuH6">short stories</h6>
+            </a></li>
+            <li class="flexMenuItem"><a class="navLink" href="about.html">
+              <img class="overlayIcon" src="assets/essentialIcons/svg/user.svg" alt="About">
+              <h6 class="overlayMenuH6">about</h6>
+            </a></li>
+        </ul>
+      </div><!-- overlay menu end -->
+        <div class="clearfix">
+          <img id="navIcon" class="showNavIcon clearfix" src="assets/essentialIcons/svg/shapes.svg">
+        </div>
+          <img class="center-logo" src="assets/profile.jpg">
+      <h1 id="name">w.b. bjorn</h1>
+      <div class="rightFloater">
+        <a href="https://medium.com/@BrotherDonkey" target="_blank"><img class="socMedCenter" src="assets/icons/social/svg/medium.svg" alt="Find W.B. Bjorn on Medium"></a>
+        <a href="https://twitter.com/wb_bjorn" target="_blank"><img class="socMedCenter" src="assets/icons/social/svg/twitter.svg" alt="Find W.B. Bjorn on Twitter"></a>
+        <a href="https://github.com/BrotherDonkey" target="_blank"><img class="socMedCenter" src="assets/icons/social/svg/github-1.svg" alt="Find W.B. Bjorn on Github"></a>
+        <a href="https://www.instagram.com/wbbjorn/" target="_blank"><img class="socMedCenter" src="assets/icons/social/svg/instagram.svg" alt="Find W.B. Bjorn on Instagram"></a>
+        <a href="https://www.amazon.com/W.-B.-Bjorn/e/B00J9ML1BW" target="_blank"><img class="socMedCenter" src="assets/icons/social/svg/amazon-1.svg" alt="Find W.B. Bjorn on Amazon"></a>
+      </div>
+      <!-- desktop navigation  -->
+      <nav id="upper-nav">
+        <ul id="navigation">
+            <li class="navItem">
+              <a class="navLink" href="index.html">home</a>
+            </li>
+            <li class="navItem">
+              <a class="navLink" href="about.html">about</a>
+            </li>
+            <li class="navItem">
+              <a class="navLink" href="novels.html">novels</a>
+            </li>
+            <li class="navItem">
+              <a class="navLink" href="shortStories.html">short stories</a>
+            </li>
+        </ul>
+      </nav>
+      <!-- desktop navigation end -->
+    </header>
+    <!-- end header -->
+    <div class="container">
+      <!-- insert page specific content here -->
+      <div class="row">
+        <p id="introduction">W.B. Bjorn is a web developer, former-teacher, shortstoryist, traveller, novelist, and scifi and fantasy aficionado. Raised in Idaho, currently residing in Seattle, he has lived in Wuxi, Shanghai, Taipei, Nagoya and Oxford. His two novels A New London Rising and The Fall of Shanghai are available on Amazon and Smashwords affiliates.</p>
+      </div>
+      <!-- novel heading -->
+      <div class="row heading">
+        <h1 class="focal">Novels</h1>
+      </div><!-- novel heading end -->
+
+      <!-- //now as an experiment, going to add a container div and two smaller divs -->
+
+<div class="flexKing">
+
+        <!-- FlexBox Book One -->
+  <div id="flexQueenOne" class="flexQueen">
+        <div class="flexParent book">
+            <img src="assets/ANewLondonRisingCover.jpeg" alt="" class="flexChild bookCover">
+          <div class="bookTextContainer">
+            <h1 class="flexChild bookTitle">A New London Rising</h1>
+            <p class="flexChild bookDesc">Cast yourself into this brave new cyberpunk London. Follow a group of refugees on their struggle to survive in a cutthroat, technilogical metropolis.</p>
+          </div>
+        </div>
+        <div class="flexParent flexBtnContainer">
+          <button class="primary-btn flexChild">READ</button>
+          <button class="secondary-btn flexChild">BUY</button>
+        </div>
+        <!-- FlexBox Book One END -->
+  </div>
+  <!-- end flexQueenOne -->
+
+        <!-- FlexBox Book Two -->
+  <div id="flexQueenTwo" class="flexQueen">
+        <div class="flexParent book">
+            <img src="assets/TheFallofShanghaiCover.jpg" alt="" class="flexChild bookCover">
+          <div class="bookTextContainer">
+            <h1 class="flexChild bookTitle">The Fall of Shanghai</h1>
+            <p class="flexChild bookDesc">Blake and Rosie set out in search of a mysterious hacker, and the trail leads them to Shanghai, walled city famed for its soaring highs and gritty, secretive low life.</p>
+          </div>
+        </div>
+        <div class="flexParent flexBtnContainer lastNovelBtnContainer">
+          <button class="primary-btn flexChild">READ</button>
+          <button class="secondary-btn flexChild">BUY</button>
+        </div>
+        <!-- FlexBox Book One END -->
+    </div>
+  <!-- end flexQueen two -->
+</div>
+<!-- end flexKing div -->
+
+      <!-- short story heading -->
+      <div class="row headingBlue">
+        <h1 class="focal">Short Stories</h1>
+      </div><!-- short story heading end -->
+
+<!--
+Consider this psuedo code for short story layout:
+div flex parent with background, shaped like square, with dark color overlay
+within this div, several flex items justify-content: center and align-items:center -->
+
+<div class="flexKing">
+  <!-- first short story link -->
+  <div class="deskStory">
+      <a href="sayGoodByeToTime.html">
+        <div id="sayGoodByeToTime" class="flexParent storyContainer">
+        <h1 class="flexChild storyTitle">say goodbye to Time</h1>
+        <p class="flexChild storyTagline">A journey to the center of the universe.</p>
+        </div>
+      </a>
+  <!-- first short story link end -->
+  </div>
+  <!-- end deskStory one -->
+  <div class="deskStory">
+  <!-- second short story link -->
+      <a href="deadMansParable.html">
+        <div id="deadMansParable" class="flexParent storyContainer">
+        <h1 class="flexChild storyTitle">Dead Man's Parable</h1>
+        <p class="flexChild storyTagline">The final avowal of a Mars badlands bandit.</p>
+        </div>
+      </a>
+  </div>
+  <!-- end deskStory -->
+  <!-- second short story link end -->
+ <!-- third story link -->
+ <div class="deskStory">
+  <a href="taleOfTheFirestarter.html">
+    <div id="taleOfTheFirestarter" class="flexParent storyContainer">
+    <h1 class="flexChild storyTitle">The Tale of the Firestarter</h1>
+    <p class="flexChild storyTagline">Some heroes are born. Others are forged in flame.
+    </p>
+    </div>
+  </a>
+</div>
+  <!-- end third story link -->
+
+<!-- see all stories button -->
+</div>
+<!-- end of flexKing -->
+
+  <button class="tertiary-btn center-btn">See All Stories</button>
+
+
+        <div class="main-content">
+        </div>
+
+      <!-- end page specific content here -->
+
+    </div>
+  </div>
+
+    <footer>
+      <div class="footerDiv">
+        <p class="footerText">web and words © W.B. Bjorn</p>
+        <p class="attribution"><a class="attribution" id="attribution-link" href="http://www.flaticon.com/authors/freepik">Credits and Attribution</a></p>
+      </div>
+    </footer>
+
+    <script src="js/menu.js"></script>
+
+
+</body>
+</html>

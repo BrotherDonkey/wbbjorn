@@ -1,0 +1,83 @@
+//PRIMARY BUTTON
+
+.primary-btn {
+  font-family: "Abel", serif;
+  display: block;
+  background: $deepBlue;
+  border: 1px solid $deepBlue;
+  color: $babyPowder;
+  padding: 10px 40px;
+  font-size: 1.2em;
+  transition: .75s;
+  cursor: pointer;
+}
+
+.primary-btn:hover {
+  background: $babyPowder;
+  border: 1px solid $deepBlue;
+  color: $deepBlue;
+  padding: 10px 40px;
+  font-size: 1.2em;
+  transition: .75s;
+  cursor: pointer;
+}
+
+//SECONDARY BUTTON
+
+.secondary-btn {
+  font-family: "Abel", serif;
+  display: block;
+  background: $crimson;
+  border: none;
+  color: $babyPowder;
+  padding: 10px 40px;
+  font-size: 1.2em;
+  transition: .75s;
+  // margin: 0 auto;
+  cursor: pointer;
+  border: 1px solid $crimson;
+
+}
+
+.secondary-btn:hover {
+  background: $babyPowder;
+  border: 1px solid $crimson;
+  color: $crimson;
+  padding: 10px 40px;
+  font-size: 1.2em;
+  cursor: pointer;
+}
+
+
+//TERTIARY BUTTON
+
+.tertiary-btn {
+  font-family: "Abel";
+  transition: .05s;
+  display: block;
+  background: none;
+  border: none;
+  color: $deepBlue;
+  padding: 10px 20px;
+  font-size: 1.5em;
+  text-decoration: underline;
+  font-weight: 500;
+  margin: 0;
+  padding: 1vh 1vh 1vh 0;
+  cursor: pointer;
+}
+
+.tertiary-btn:hover {
+  font-weight: bold;
+}
+
+.center-btn {
+  margin: 0 auto;
+}
+
+//Buttons for Novels pageSubheadline
+
+.novel-btn {
+  width: 60%;
+  margin-top: 5px;
+}

@@ -1,0 +1,70 @@
+@font-face {
+    font-family: "Source-sans";
+    src: url('fonts/sourcesanspro/SourceSansPro-Regular.ttf');
+}
+
+@font-face {
+    font-family: "Arima-Madurai";
+    src: url('fonts/arimamadurai/ArimaMadurai-Regular.ttf');
+}
+
+@font-face {
+    font-family: "Abel";
+    src: url('fonts/Abel/Abel-Regular.ttf');
+}
+
+@font-face {
+    font-family: "Open-sans";
+    src: url('fonts/opensans/OpenSans-Regular.ttf');
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: "Abel", serif;
+}
+
+p {
+  font-family: 'Open-sans', sans-serif;
+}
+
+button {
+  font-family: 'Arima-Madurai', serif;
+}
+
+a {
+  font-family: 'Open-sans', serif;
+}
+
+
+.pageSubheadline {
+  display: none;
+}
+
+h2 {
+  font-size: 1.5em;
+}
+
+h3 {
+}
+
+h4 {
+  font-size: 1em;
+}
+
+.focal {
+  text-align: center;
+}
+
+@media only screen and (min-width : 768px) {
+  //
+  // .pageSubheadline {
+  //   display: inline;
+  //   margin-top: 5px;
+  // }
+}
+
+// @media only screen and (min-width : 1024px) {
+//
+//   p {
+//     font-size: 1.2em
+//   }
+// }

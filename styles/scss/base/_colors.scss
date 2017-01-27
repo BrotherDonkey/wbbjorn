@@ -1,0 +1,78 @@
+/*COLORS*/
+
+/*
+1. Colors
+  a. Dark
+  b. Light
+  c.Third Set of Colors
+2. Font Colors
+*/
+
+//
+// // ***********************
+// // *********COLORS********
+// // ***********************
+//
+// // ***********************
+// // *****Dark Shades******
+// // ***********************
+
+$darkPurple: #3B1F2B;
+
+$crimson: #840032;
+
+$babyPowder: #edf7f6;
+
+$steelTeal: #5F758E;
+
+$deepBlue: #002642;
+
+// ***********************
+// *****Light Shades******
+// ***********************
+
+//babyPowder is the same
+
+$lightGrey: #d3d0cb;
+
+$darkGrey: #5C5D7D;
+
+
+// ***********************
+// ***A THIRD COLOR SET***
+// ***********************
+
+//see $quartz below
+$whiteSmoke: #F5F0F6;
+$ghostWhite: #FBFBFF;
+$darkGunmetal: #1E152A;
+$darkGunmetal80: rgba(30, 21, 42, .8);
+$registrationBlack: #000000;
+$blueYonder: #4D7EA8;
+
+
+// ***********************
+// *****FONT COLORS******
+// ***********************
+
+//lightGrey
+$quartz: #524948;
+
+//darkerGrey
+$charlestonGreen: #2D2828;
+
+//darkBlack
+$smokyBlack: #080707;
+
+//see babyPowder above for whiteSmoke
+
+/*Setting Colors of Type and Certain Elements*/
+
+
+h1,h2,h3,h4,h5,h6 {
+  color: $smokyBlack;
+}
+
+p {
+  color: $smokyBlack;
+}

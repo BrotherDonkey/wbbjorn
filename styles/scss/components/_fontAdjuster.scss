@@ -1,0 +1,80 @@
+.fontAdjuster {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  max-height: 15vh;
+  // cursor: pointer;
+}
+
+.fontAdjusterIcon {
+  width: 10vw;
+  // cursor: pointer;
+}
+
+.fontAdjusterIcon:hover {
+  width: 10vw;
+  // cursor: pointer;
+}
+
+#minusSign {
+  margin-left: 10vw;
+  // cursor: pointer;
+
+}
+
+#plusSign {
+  margin-right: 10vw;
+  // cursor: pointer;
+
+}
+
+h4.fontAdjusterHeadline {
+  margin: 0 20px;
+}
+
+#fontSmaller {
+  // cursor: pointer;
+}
+
+#fontLarger {
+  // cursor: pointer;
+}
+
+#main-container {
+  // cursor: pointer;
+}
+
+#test {
+  // cursor: pointer;
+}
+
+#fontAdjusterDiv {
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+h4#adjustHeadline {
+  font-size: 1em;
+  margin: 0;
+  padding: 0 0 1.5vh 0;
+}
+
+@media only screen and (min-width : 1024px) {
+  #fontAdjusterDiv {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 50%;
+    margin: 25px auto;
+  }
+
+  h4#adjustHeadline {
+    font-size: 1.5em;
+    margin: 0;
+    padding: 0 0 1.5vh 0;
+  }
+
+
+}

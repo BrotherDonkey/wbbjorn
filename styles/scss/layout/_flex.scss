@@ -1,0 +1,125 @@
+//Styling for flex elements
+
+//flex parent's display
+.flexParent {
+  display: flex;
+}
+
+//flex child's display
+.flexChild {
+  display: flex;
+}
+
+//styling for book covers on homepage
+.book {
+  padding-top: 15px;
+  width: 100%;
+  flex-direction: row;
+  align-items: center;
+}
+
+.bookCover {
+  width: 45%;
+  height: auto;
+  padding: 0 2.5%;
+}
+
+.bookTextContainer {
+  width: 50%;
+}
+
+.bookTitle {
+  font-size: 1.5em;
+}
+
+.bookDesc {
+}
+
+//flex button styling
+
+.flexBtnContainer {
+  justify-content: space-around;
+  margin-bottom: 5px;
+}
+
+//begin short story styling for the homepage
+
+.storyContainer {
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 90vw;
+  height: 90vw;
+  transition: .5s;
+}
+
+.storyContainer:hover {
+  transform: scale(1.1);
+}
+
+.storyTitle:hover {
+  color: $crimson;
+}
+
+.storyTitle {
+  margin: 10vh 15px 0 15px;
+  color: $babyPowder;
+  background: $darkGunmetal80;
+  padding: 2px 6px;
+  border: 1px solid $babyPowder;
+}
+
+.storyTagline {
+  text-align: center;
+  margin: 0 15px 15vh 15px;
+  color: $babyPowder;
+  padding: 2px 6px;
+  background: $darkGunmetal80;
+  border: 1px solid $babyPowder;
+}
+
+.storyTagline:hover {
+  color: $crimson;
+}
+
+@media only screen and (min-width : 1024px) {
+
+
+
+
+  .storyContainer {
+    flex-direction: column;
+    // justify-content: space-around;
+    // align-items: center;
+    transition: none;
+  }
+
+  .storyContainer:hover {
+    transform: none;
+}
+  .flexKing {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 70%;
+    margin: 0 auto;
+    margin-bottom: 25px;
+    background: $babyPowder;
+    border-radius: 0 0 50px 50px;
+  }
+
+  div.flexQueen {
+    width: 50%;
+    }
+
+  div.deskStory {
+    padding: 25px;
+  }
+
+
+
+}
+
+
+//reading pages styling -- nar = narrative

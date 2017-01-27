@@ -1,0 +1,52 @@
+
+// div {
+//   border: 1px solid black;
+// }
+
+
+.main-content {
+  width: 90vw;
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+// div.btn-mobile {
+//   width: 100%;
+//   margin: 5px;
+//   height: 5vh;
+// }
+
+@media only screen and (min-width : 590px) {
+
+.container {
+  min-height: 75%;
+  max-width: 100%;
+  overflow: auto;
+}
+// .main-content {
+//   min-height: 70%;
+// }
+
+}
+
+
+@media only screen and (min-width : 1024px) {
+
+
+  // a div.storyContainer {
+  //   max-width: 60%;
+  //
+  // //   margin: 0 auto;
+  //
+  // }
+  //
+  // div#storyHeadingContainer {
+  //
+  //   width: 60%;
+  //   text-align: center;
+  //   margin: 0 auto;
+  //
+  // }
+
+
+}
