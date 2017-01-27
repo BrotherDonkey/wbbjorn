@@ -139,6 +139,23 @@ a.btn-a {
     margin: 25px auto;
     border-radius: 50px;
   }
+
+  #novelPageContainer {
+    display: flex;
+  }
+
+  #novelPageNovel {
+    width: 46%;
+    margin: 2%;
+    border-radius: 50px;
+    padding: 25px;
+    background: $babyPowder;
+  }
+
+  .novel-hr {
+    display: none;
+  }
+
 }
 
 @media only screen and (min-width : 1024px) {
@@ -244,5 +261,8 @@ a.btn-a {
     margin: 25px auto;
     font-size: 24px;
   }
+
+
+
 
 }

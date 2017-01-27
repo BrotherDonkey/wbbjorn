@@ -670,7 +670,20 @@ a.btn-a {
     width: 50vw;
     height: 50vw;
     margin: 25px auto;
-    border-radius: 50px; } }
+    border-radius: 50px; }
+
+  #novelPageContainer {
+    display: flex; }
+
+  #novelPageNovel {
+    width: 46%;
+    margin: 2%;
+    border-radius: 50px;
+    padding: 25px;
+    background: #edf7f6; }
+
+  .novel-hr {
+    display: none; } }
 @media only screen and (min-width: 1024px) {
   .main-content {
     padding: 35px 0 0 0; }
