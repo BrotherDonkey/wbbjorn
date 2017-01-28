@@ -6,6 +6,7 @@ const fontSmaller = document.getElementById('minusSign');
 console.log(fontSmaller);
 const fontLarger = document.getElementById('plusSign');
 console.log(fontLarger);
+const bodyDiv = document.querySelector('body');
 
 // make font smaller function
 const makeParaSmaller = function(e){
@@ -39,4 +40,4 @@ const prevDoub = function(e) {
 fontSmaller.addEventListener('click', makeParaSmaller);
 fontLarger.addEventListener('click', makeParaLarger);
 fontSmaller.addEventListener('dblclick', prevDoub);
-fontLarger.addEventListener('dblclick', prevDoub);
+bodyDiv.addEventListener('dblclick', prevDoub);
