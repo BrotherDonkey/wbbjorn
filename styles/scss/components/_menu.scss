@@ -102,13 +102,43 @@
 
 //iPad sized Media Query Start
 
-@media only screen and (min-width : 590px) {
+@media only screen and (min-width : 600px) {
+  #exitNav {
+    max-width: 8vw;
+  }
 
+  .overlayMenuSubtitle {
+    margin: 5vw;
+  }
+
+  #flexMenu {
+    // max-height: 100%;
+    max-width: 70%;
+    margin: 0 auto;
+    flex-direction: row;
+
+  }
+
+  .flexMenuItem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 40%;
+    margin: 2%;
+    padding: 1%;
+    height: auto;
+  }
+
+  img.overlayIcon {
+    max-height: 50%;
+  }
 
 }
 
-@media only screen and (min-width : 1100px) {
-
+@media only screen and (min-width : 1024px) {
+  #overlayMenu {
+    display: none;
+  }
 
 
 }

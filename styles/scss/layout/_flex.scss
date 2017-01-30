@@ -110,6 +110,34 @@ img.aboutSocMedIcon {
 
 }
 
+@media only screen and (min-width : 768px) {
+
+  #aboutKing {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .aboutFindMe {
+    display: block;
+    background: none;
+    color: $darkGrey;
+    
+  }
+
+  .flexAbout {
+    width: 33vw;
+  }
+
+  .rowAbout {
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+    padding: 50px 0 0 0;
+  }
+
+}
+
 @media only screen and (min-width : 1024px) {
 
 

@@ -237,6 +237,32 @@ h4 {
   height: 100%;
   overflow: hidden; }
 
+@media only screen and (min-width: 600px) {
+  #exitNav {
+    max-width: 8vw; }
+
+  .overlayMenuSubtitle {
+    margin: 5vw; }
+
+  #flexMenu {
+    max-width: 70%;
+    margin: 0 auto;
+    flex-direction: row; }
+
+  .flexMenuItem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 40%;
+    margin: 2%;
+    padding: 1%;
+    height: auto; }
+
+  img.overlayIcon {
+    max-height: 50%; } }
+@media only screen and (min-width: 1024px) {
+  #overlayMenu {
+    display: none; } }
 .fontAdjuster {
   width: 100%;
   display: flex;
@@ -466,13 +492,12 @@ div.headingBlue {
     overflow: auto; } }
 footer {
   background: #002642;
-  height: 10vh;
   border-width: 0;
   border-top-width: 5px;
   border-style: solid;
   border-color: #840032;
   text-align: center;
-  padding-top: 5vh;
+  padding: 5vh 0 5vh 0;
   margin-top: 3px; }
 
 footer p {
@@ -561,6 +586,25 @@ img.aboutSocMedIcon {
   width: 50px;
   margin: 0; }
 
+@media only screen and (min-width: 768px) {
+  #aboutKing {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; }
+
+  .aboutFindMe {
+    display: block;
+    background: none;
+    color: #5C5D7D; }
+
+  .flexAbout {
+    width: 33vw; }
+
+  .rowAbout {
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+    padding: 50px 0 0 0; } }
 @media only screen and (min-width: 1024px) {
   .storyContainer {
     flex-direction: column;
@@ -700,8 +744,8 @@ a.btn-a {
   text-align: center;
   margin: 35px auto 35px auto;
   padding: 10px 0;
-  background-color: #840032;
-  color: #edf7f6; }
+  color: #840032;
+  border-bottom: 1px solid #840032; }
 
 h2.aboutSocMedTitle {
   color: #edf7f6; }
@@ -727,8 +771,11 @@ h2.aboutSocMedTitle {
     display: none; }
 
   .aboutFindMe {
-    width: 50%;
-    border-radius: 50px; } }
+    font-size: 1.5em;
+    width: 50%; }
+
+  h2.aboutSocMedTitle {
+    font-size: 1em; } }
 @media only screen and (min-width: 1024px) {
   .main-content {
     padding: 35px 0 0 0; }
