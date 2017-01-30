@@ -540,6 +540,19 @@ p.footerText {
 .storyTagline:hover {
   color: #840032; }
 
+.flexAbout {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center; }
+
+.flexAboutItem {
+  display: flex;
+  width: 90%;
+  margin: 10px auto;
+  background: #840032;
+  height: 50px; }
+
 @media only screen and (min-width: 1024px) {
   .storyContainer {
     flex-direction: column;
@@ -668,6 +681,20 @@ a.btn-a {
 #shortStoryPageHeading {
   margin-top: 25px; }
 
+#aboutProfile {
+  display: block;
+  border: 2px solid #840032;
+  border-radius: 100%;
+  width: 250px;
+  margin: 10px auto 0 auto; }
+
+.aboutFindMe {
+  text-align: center;
+  margin: 35px auto 35px auto;
+  padding: 10px 0;
+  background-color: #840032;
+  color: #edf7f6; }
+
 @media only screen and (min-width: 768px) {
   #sayGoodByeToTime, #deadMansParable, #taleOfTheFirestarter {
     width: 50vw;
@@ -686,7 +713,12 @@ a.btn-a {
     background: #edf7f6; }
 
   .novel-hr {
-    display: none; } }
+    display: none; }
+
+  .aboutFindMe {
+    display: flex;
+    width: 50%;
+    border-radius: 50px; } }
 @media only screen and (min-width: 1024px) {
   .main-content {
     padding: 35px 0 0 0; }

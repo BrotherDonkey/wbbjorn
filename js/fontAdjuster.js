@@ -40,4 +40,4 @@ const prevDoub = function(e) {
 fontSmaller.addEventListener('click', makeParaSmaller);
 fontLarger.addEventListener('click', makeParaLarger);
 fontSmaller.addEventListener('dblclick', prevDoub);
-bodyDiv.addEventListener('dblclick', prevDoub);
+bodyDiv.addEventListener('dblclick', function(event){event.preventDefault()}, false);
