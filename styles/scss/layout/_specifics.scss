@@ -147,6 +147,10 @@ a.btn-a {
   color: $babyPowder;
 }
 
+h2.aboutSocMedTitle {
+  color: $babyPowder;
+}
+
 
 @media only screen and (max-width : 321) {
 }
@@ -179,7 +183,6 @@ a.btn-a {
   }
 
   .aboutFindMe {
-    display: flex;
     width: 50%;
     border-radius: 50px;
   }
