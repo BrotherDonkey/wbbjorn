@@ -649,6 +649,11 @@ img.aboutSocMedIcon {
   margin: 5vw;
   background-size: cover; }
 
+#aNewLondonRising {
+  background-image: url(cssImages/storyCovers/aNewLondonRisingCover.jpeg);
+  margin: 5vw;
+  background-size: cover; }
+
 #taleOfTheFirestarter {
   background-image: url(cssImages/storyCovers/taleOfTheFirestarter.jpeg);
   margin: 5vw;
@@ -693,6 +698,10 @@ img.novelCover {
   display: block;
   padding: 5% 2.5% 0 0; }
 
+img.bookCoverRead {
+  max-height: 45vh;
+  width: auto; }
+
 .novelDesciption {
   display: block;
   padding: 2.5% 2.5% 0 0;
@@ -730,6 +739,11 @@ a.btn-a {
 .narTextCont {
   margin: 0 5vw; }
 
+.center {
+  display: block;
+  text-align: center;
+  margin: 10px auto; }
+
 #shortStoryPageHeading {
   margin-top: 25px; }
 
@@ -756,6 +770,10 @@ h2.aboutSocMedTitle {
     height: 50vw;
     margin: 25px auto;
     border-radius: 50px; }
+
+  #novelExCont {
+    max-width: 25vw;
+    margin: 0 auto; }
 
   #novelPageContainer {
     display: flex; }
