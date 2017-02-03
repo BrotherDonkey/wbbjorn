@@ -13,11 +13,6 @@ h1, h2, h3, h4, h5, h6 {
 p {
   color: #080707; }
 
-/*
-1. Border on all elements
-2. Eliminating css styles from ul, li, a
-3. Setting headline sizes and colors
-*/
 ul, ol {
   list-style: none;
   margin: 0;
@@ -411,7 +406,9 @@ header h1 {
 
   .rightFloater {
     display: flex;
-    float: right;
+    position: absolute;
+    right: 10px;
+    top: 10px;
     justify-content: space-between;
     width: 33.3333%;
     padding: 10px 10px; }
@@ -480,16 +477,10 @@ div.headingBlue {
   padding: 2.5% 0;
   margin: 0; }
 
-.main-content {
-  width: 90vw;
-  margin: 0 auto;
-  max-width: 100%; }
-
 @media only screen and (min-width: 590px) {
   .container {
     min-height: 75%;
-    max-width: 100%;
-    overflow: auto; } }
+    max-width: 100%; } }
 footer {
   background: #002642;
   border-width: 0;
@@ -776,10 +767,10 @@ h2.aboutSocMedTitle {
     margin: 0 auto; }
 
   #novelPageContainer {
-    display: flex; }
+    display: flex;
+    width: 100%; }
 
   #novelPageNovel {
-    width: 46%;
     margin: 2%;
     border-radius: 50px;
     padding: 25px;

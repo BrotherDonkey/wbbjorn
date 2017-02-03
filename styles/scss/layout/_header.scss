@@ -155,7 +155,10 @@ header h1 {
 
 .rightFloater {
   display: flex;
-  float: right;
+  // float: right;
+  position: absolute;
+  right: 10px;
+  top: 10px;
   justify-content: space-between;
   width: 33.3333%;
   padding: 10px 10px;
