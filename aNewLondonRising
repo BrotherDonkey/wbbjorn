@@ -22,15 +22,15 @@
               <img class="overlayIcon" src="assets/essentialIcons/svg/clock.svg" alt="">
               <h6 class="overlayMenuH6">home<h6>
             </a></li>
-            <li class="flexMenuItem"><a class="navLink" href="novels.html">
+            <li class="flexMenuItem"><a class="navLink" href="novels">
               <img class="overlayIcon" src="assets/essentialIcons/svg/agenda-1.svg" alt="">
               <h6 class="overlayMenuH6">novels<h6>
             </a></li>
-            <li class="flexMenuItem"><a class="navLink" href="shortStories.html">
+            <li class="flexMenuItem"><a class="navLink" href="shortStories">
               <img class="overlayIcon" src="assets/essentialIcons/svg/witch.svg" alt="">
               <h6 class="overlayMenuH6">short stories<h6>
             </a></li>
-            <li class="flexMenuItem"><a class="navLink" href="about.html">
+            <li class="flexMenuItem"><a class="navLink" href="about">
               <img class="overlayIcon" src="assets/essentialIcons/svg/user.svg" alt="">
               <h6 class="overlayMenuH6">about<h6>
             </a></li>
@@ -52,9 +52,9 @@
       <nav id="upper-nav">
         <ul id="navigation">
           <li class="navItem"><a class="navLink" href="index.html">home</a></li>
-          <li class="navItem"><a class="navLink" href="about.html">about</a></li>
-          <li class="navItem"><a class="navLink" href="novels.html">novels</a></li>
-          <li class="navItem"><a class="navLink" href="shortStories.html">short stories</a></li>
+          <li class="navItem"><a class="navLink" href="about">about</a></li>
+          <li class="navItem"><a class="navLink" href="novels">novels</a></li>
+          <li class="navItem"><a class="navLink" href="shortStories">short stories</a></li>
         </ul>
       </nav><!-- desktop navigation end -->
     </header>
