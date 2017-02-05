@@ -25,7 +25,7 @@
               <img class="overlayIcon" src="assets/essentialIcons/svg/agenda-1.svg" alt="">
               <h6 class="overlayMenuH6">novels<h6>
             </a></li>
-            <li class="flexMenuItem"><a class="navLink" href="shortStories">
+            <li class="flexMenuItem"><a class="navLink" href="short-stories">
               <img class="overlayIcon" src="assets/essentialIcons/svg/witch.svg" alt="">
               <h6 class="overlayMenuH6">short stories<h6>
             </a></li>
@@ -53,7 +53,7 @@
           <li class="navItem"><a class="navLink" href="/">home</a></li>
           <li class="navItem"><a class="navLink" href="about">about</a></li>
           <li class="navItem"><a class="navLink" href="novels">novels</a></li>
-          <li class="navItem"><a class="navLink" href="shortStories">short stories</a></li>
+          <li class="navItem"><a class="navLink" href="short-stories">short stories</a></li>
         </ul>
       </nav><!-- desktop navigation end -->
     </header>
