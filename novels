@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>All</title>
@@ -17,19 +17,19 @@
         <h1 id="navTitle">w.b. bjorn</h1>
         <p class="overlayMenuSubtitle">"The wolf's eyes had not left him since they opened. Faraji paced forward guardedly. With meticulousness he surveyed each of the great chains that held the beast in place, seeing how the threads of this world circled them, how they skipped and danced along and wound eventually into the paws of the animal that was now surveying him. Its eyes divulged an acute intelligence."<br><br>from <i>The Fall of Shanghai</i></p>
         <ul id="flexMenu">
-            <li class="flexMenuItem"><a class="navLink" href="index.html">
+            <li class="flexMenuItem"><a class="navLink" href="index">
               <img class="overlayIcon" src="assets/essentialIcons/svg/clock.svg" alt="">
               <h6 class="overlayMenuH6">home<h6>
             </a></li>
-            <li class="flexMenuItem"><a class="navLink" href="novels.html">
+            <li class="flexMenuItem"><a class="navLink" href="novels">
               <img class="overlayIcon" src="assets/essentialIcons/svg/agenda-1.svg" alt="">
               <h6 class="overlayMenuH6">novels<h6>
             </a></li>
-            <li class="flexMenuItem"><a class="navLink" href="shortStories.html">
+            <li class="flexMenuItem"><a class="navLink" href="shortStories">
               <img class="overlayIcon" src="assets/essentialIcons/svg/witch.svg" alt="">
               <h6 class="overlayMenuH6">short stories<h6>
             </a></li>
-            <li class="flexMenuItem"><a class="navLink" href="about.html">
+            <li class="flexMenuItem"><a class="navLink" href="about">
               <img class="overlayIcon" src="assets/essentialIcons/svg/user.svg" alt="">
               <h6 class="overlayMenuH6">about<h6>
             </a></li>
@@ -50,10 +50,10 @@
       <!-- desktop navigation  -->
       <nav id="upper-nav">
         <ul id="navigation">
-          <li class="navItem"><a class="navLink" href="index.html">home</a></li>
-          <li class="navItem"><a class="navLink" href="about.html">about</a></li>
-          <li class="navItem"><a class="navLink" href="novels.html">novels</a></li>
-          <li class="navItem"><a class="navLink" href="shortStories.html">short stories</a></li>
+          <li class="navItem"><a class="navLink" href="index">home</a></li>
+          <li class="navItem"><a class="navLink" href="about">about</a></li>
+          <li class="navItem"><a class="navLink" href="novels">novels</a></li>
+          <li class="navItem"><a class="navLink" href="shortStories">short stories</a></li>
         </ul>
       </nav><!-- desktop navigation end -->
     </header>
@@ -66,7 +66,7 @@
           <h1 class="novelTitle">A New London Rising</h1>
           <p class="novelDesc">Cast yourself into this brave new cyberpunk London. Follow a group of refugees on their struggle to survive in a cutthroat, technilogical metropolis.</p>
           <div class="novelBtnContainer">
-            <a href="aNewLondonRising.html" class="btn-a"><button class="primary-btn novel-btn center-btn">Read Now</button></a>
+            <a href="aNewLondonRising" class="btn-a"><button class="primary-btn novel-btn center-btn">Read Now</button></a>
             <a href="https://www.amazon.com/New-London-Rising-Cyberpunk-Cities/dp/1517418240" class="btn-a" target="_blank"><button class="secondary-btn novel-btn center-btn">Paperpack</button></a>
             <a href="https://www.smashwords.com/books/view/578422" class="btn-a" target="_blank"><button class="secondary-btn novel-btn center-btn">Mobile</button></a>
             <a href="https://www.amazon.com/New-London-Rising-Cyberpunk-Cities-ebook/dp/B015JTDE9U" class="btn-a" target="_blank"><button class="secondary-btn novel-btn center-btn">Kindle</button></a>
@@ -80,7 +80,7 @@
           <h1 class="novelTitle">The Fall of Shanghai</h1>
           <p class="novelDesc">Blake and Rosie set out in search of a mysterious hacker, and the trail leads them to Shanghai, walled city famed for its soaring highs and gritty, secretive low life.</p>
           <div class="novelBtnContainer">
-            <a href="theFallOfShanghai.html" class="btn-a"><button class="primary-btn novel-btn center-btn">Read Now</button></a>
+            <a href="theFallOfShanghai" class="btn-a"><button class="primary-btn novel-btn center-btn">Read Now</button></a>
             <a href="https://www.amazon.com/Fall-Shanghai-Cyberpunk-Cities-Future/dp/1516999096" class="btn-a" target="_blank"><button class="secondary-btn novel-btn center-btn">Paperpack</button></a>
             <a href="https://www.smashwords.com/books/view/599129" class="btn-a" target="_blank"><button class="secondary-btn novel-btn center-btn">Mobile</button></a>
             <a href="https://www.amazon.com/Fall-Shanghai-Cyberpunk-Cities-Future-ebook/dp/B0199F7YKU/" class="btn-a" target="_blank"><button class="secondary-btn novel-btn center-btn">Kindle</button></a>

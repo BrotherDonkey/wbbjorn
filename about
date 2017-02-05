@@ -1,11 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>w.b. bjorn</title>
-  <meta name="description" content="Dedicated to the novel, story stories, and code of W.B. bjorn.">
+  <title>All</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.css">
   <link rel="stylesheet" href="styles/css/application.css">
 </head>
@@ -19,20 +18,20 @@
         <p class="overlayMenuSubtitle">"The wolf's eyes had not left him since they opened. Faraji paced forward guardedly. With meticulousness he surveyed each of the great chains that held the beast in place, seeing how the threads of this world circled them, how they skipped and danced along and wound eventually into the paws of the animal that was now surveying him. Its eyes divulged an acute intelligence."<br><br>from <i>The Fall of Shanghai</i></p>
         <ul id="flexMenu">
             <li class="flexMenuItem">
-              <a class="navLink" href="index.html">
+              <a class="navLink" href="index">
               <img class="overlayIcon" src="assets/essentialIcons/svg/clock.svg" alt="Home">
               <h6 class="overlayMenuH6">home</h6>
               </a>
             </li>
-            <li class="flexMenuItem"><a class="navLink" href="novels.html">
+            <li class="flexMenuItem"><a class="navLink" href="novels">
               <img class="overlayIcon" src="assets/essentialIcons/svg/agenda-1.svg" alt="Novels">
               <h6 class="overlayMenuH6">novels</h6>
             </a></li>
-            <li class="flexMenuItem"><a class="navLink" href="shortStories.html">
+            <li class="flexMenuItem"><a class="navLink" href="shortStories">
               <img class="overlayIcon" src="assets/essentialIcons/svg/witch.svg" alt="Short Stories">
               <h6 class="overlayMenuH6">short stories</h6>
             </a></li>
-            <li class="flexMenuItem"><a class="navLink" href="about.html">
+            <li class="flexMenuItem"><a class="navLink" href="about">
               <img class="overlayIcon" src="assets/essentialIcons/svg/user.svg" alt="About">
               <h6 class="overlayMenuH6">about</h6>
             </a></li>
@@ -41,7 +40,9 @@
         <div class="clearfix">
           <img id="navIcon" class="showNavIcon clearfix" src="assets/essentialIcons/svg/shapes.svg">
         </div>
-          <img class="center-logo" src="assets/profile.jpg">
+        <a href="novels">
+          <img class="center-logo" src="assets/profileRead.jpg">
+        </a>
       <h1 id="name">w.b. bjorn</h1>
       <div class="rightFloater">
         <a href="https://medium.com/@BrotherDonkey" target="_blank"><img class="socMedCenter" src="assets/icons/social/svg/medium.svg" alt="Find W.B. Bjorn on Medium"></a>
@@ -54,16 +55,16 @@
       <nav id="upper-nav">
         <ul id="navigation">
             <li class="navItem">
-              <a class="navLink" href="index.html">home</a>
+              <a class="navLink" href="index">home</a>
             </li>
             <li class="navItem">
-              <a class="navLink" href="about.html">about</a>
+              <a class="navLink" href="about">about</a>
             </li>
             <li class="navItem">
-              <a class="navLink" href="novels.html">novels</a>
+              <a class="navLink" href="novels">novels</a>
             </li>
             <li class="navItem">
-              <a class="navLink" href="shortStories.html">short stories</a>
+              <a class="navLink" href="shortStories">short stories</a>
             </li>
         </ul>
       </nav>
@@ -73,14 +74,48 @@
     <div class="container">
       <!-- insert page specific content here -->
 
-      <h1>Credits and Attribution</h1>
 
+      <div id="aboutKing">
 
+        <div class="rowAbout">
+          <img id="aboutProfile" src="assets/profile.jpg">
+          <p id="introduction">W.B. Bjorn is a web developer, former-teacher, shortstoryist, traveller, novelist, and scifi and fantasy aficionado. Raised in Idaho, currently residing in Seattle, he has lived in Wuxi, Shanghai, Taipei, Nagoya and Oxford. His two novels A New London Rising and The Fall of Shanghai are available on Amazon and Smashwords affiliates.</p>
+        </div>
+
+        <div class="flexAbout">
+          <h2 class="aboutFindMe">some of my digital haunts</h2>
+          <!-- INSTAGRAM -->
+          <a href="https://www.instagram.com/wbbjorn/" class="flexAboutItem">
+            <h2 class="aboutSocMedTitle">instagram</h2><img class="aboutSocMedIcon" src="assets/icons/social/svg/instagram.svg" alt="Find w.b. bjorn on Instagram.">
+          </a>
+          <!-- AMAZON -->
+          <a href="https://www.amazon.com/W.-B.-Bjorn/e/B00J9ML1BW" class="flexAboutItem">
+            <h2 class="aboutSocMedTitle">amazon</h2><img class="aboutSocMedIcon" src="assets/icons/social/svg/amazon-1.svg" alt="Find w.b. bjorn on Amazon.">
+          </a>
+          <!-- CODEPEN -->
+          <a href="https://codepen.io/BrotherDonkey/" class="flexAboutItem">
+            <h2 class="aboutSocMedTitle">code pen</h2><img class="aboutSocMedIcon" src="assets/essentialIcons/png/codepen.png" alt="Find w.b. bjorn on Code Pen.">
+          </a>
+          <!-- MEDIUM -->
+          <a href="https://medium.com/@BrotherDonkey" class="flexAboutItem">
+            <h2 class="aboutSocMedTitle">medium</h2><img class="aboutSocMedIcon" src="assets/icons/social/svg/medium.svg" alt="Find w.b. bjorn on Medium.">
+          </a>
+          <!-- GITHUB -->
+          <a href="https://github.com/BrotherDonkey" class="flexAboutItem">
+            <h2 class="aboutSocMedTitle">github</h2><img class="aboutSocMedIcon" src="assets/icons/social/svg/github.svg" alt="Find w.b. bjorn on GitHub.">
+          </a>
+          <a href="https://twitter.com/wb_bjorn" class="flexAboutItem">
+            <h2 class="aboutSocMedTitle">twitter</h2><img class="aboutSocMedIcon" src="assets/icons/social/svg/twitter.svg" alt="Find w.b. bjorn on Twitter.">
+          </a>
+        </div>
+        <!-- end flexAbout -->
+      <!-- end page specific content here -->
+      </div>
     </div>
 
     <footer>
       <div class="footerDiv">
-        <p class="footerText">web and words © W.B. Bjorn</p>
+        <p class="footerText">website hand coded by w.b. bjorn, no frameworks, no jQuery, just HTML, CSS, and vanilla JavaScript</p>
         <p class="attribution"><a class="attribution" id="attribution-link" href="http://www.flaticon.com/authors/freepik">Credits and Attribution</a></p>
       </div>
     </footer>

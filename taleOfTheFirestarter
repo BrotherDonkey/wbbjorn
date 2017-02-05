@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Tale of the Firestarter - W.B. Bjorn</title>
@@ -18,19 +18,19 @@
         <h1 id="navTitle">w.b. bjorn</h1>
         <p class="overlayMenuSubtitle">"The wolf's eyes had not left him since they opened. Faraji paced forward guardedly. With meticulousness he surveyed each of the great chains that held the beast in place, seeing how the threads of this world circled them, how they skipped and danced along and wound eventually into the paws of the animal that was now surveying him. Its eyes divulged an acute intelligence."<br><br>from <i>The Fall of Shanghai</i></p>
         <ul id="flexMenu">
-            <li class="flexMenuItem"><a class="navLink" href="index.html">
+            <li class="flexMenuItem"><a class="navLink" href="index">
               <img class="overlayIcon" src="assets/essentialIcons/svg/clock.svg" alt="">
               <h6 class="overlayMenuH6">home<h6>
             </a></li>
-            <li class="flexMenuItem"><a class="navLink" href="novels.html">
+            <li class="flexMenuItem"><a class="navLink" href="novels">
               <img class="overlayIcon" src="assets/essentialIcons/svg/agenda-1.svg" alt="">
               <h6 class="overlayMenuH6">novels<h6>
             </a></li>
-            <li class="flexMenuItem"><a class="navLink" href="shortStories.html">
+            <li class="flexMenuItem"><a class="navLink" href="shortStories">
               <img class="overlayIcon" src="assets/essentialIcons/svg/witch.svg" alt="">
               <h6 class="overlayMenuH6">short stories<h6>
             </a></li>
-            <li class="flexMenuItem"><a class="navLink" href="about.html">
+            <li class="flexMenuItem"><a class="navLink" href="about">
               <img class="overlayIcon" src="assets/essentialIcons/svg/user.svg" alt="">
               <h6 class="overlayMenuH6">about<h6>
             </a></li>
@@ -51,10 +51,10 @@
       <!-- desktop navigation  -->
       <nav id="upper-nav">
         <ul id="navigation">
-          <li class="navItem"><a class="navLink" href="index.html">home</a></li>
-          <li class="navItem"><a class="navLink" href="about.html">about</a></li>
-          <li class="navItem"><a class="navLink" href="novels.html">novels</a></li>
-          <li class="navItem"><a class="navLink" href="shortStories.html">short stories</a></li>
+          <li class="navItem"><a class="navLink" href="index">home</a></li>
+          <li class="navItem"><a class="navLink" href="about">about</a></li>
+          <li class="navItem"><a class="navLink" href="novels">novels</a></li>
+          <li class="navItem"><a class="navLink" href="shortStories">short stories</a></li>
         </ul>
       </nav><!-- desktop navigation end -->
     </header>

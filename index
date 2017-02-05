@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>w.b. bjorn</title>
@@ -19,20 +19,20 @@
         <p class="overlayMenuSubtitle">"The wolf's eyes had not left him since they opened. Faraji paced forward guardedly. With meticulousness he surveyed each of the great chains that held the beast in place, seeing how the threads of this world circled them, how they skipped and danced along and wound eventually into the paws of the animal that was now surveying him. Its eyes divulged an acute intelligence."<br><br>from <i>The Fall of Shanghai</i></p>
         <ul id="flexMenu">
             <li class="flexMenuItem">
-              <a class="navLink" href="index.html">
+              <a class="navLink" href="index">
               <img class="overlayIcon" src="assets/essentialIcons/svg/clock.svg" alt="Home">
               <h6 class="overlayMenuH6">home</h6>
               </a>
             </li>
-            <li class="flexMenuItem"><a class="navLink" href="novels.html">
+            <li class="flexMenuItem"><a class="navLink" href="novels">
               <img class="overlayIcon" src="assets/essentialIcons/svg/agenda-1.svg" alt="Novels">
               <h6 class="overlayMenuH6">novels</h6>
             </a></li>
-            <li class="flexMenuItem"><a class="navLink" href="shortStories.html">
+            <li class="flexMenuItem"><a class="navLink" href="shortStories">
               <img class="overlayIcon" src="assets/essentialIcons/svg/witch.svg" alt="Short Stories">
               <h6 class="overlayMenuH6">short stories</h6>
             </a></li>
-            <li class="flexMenuItem"><a class="navLink" href="about.html">
+            <li class="flexMenuItem"><a class="navLink" href="about">
               <img class="overlayIcon" src="assets/essentialIcons/svg/user.svg" alt="About">
               <h6 class="overlayMenuH6">about</h6>
             </a></li>
@@ -54,16 +54,16 @@
       <nav id="upper-nav">
         <ul id="navigation">
             <li class="navItem">
-              <a class="navLink" href="index.html">home</a>
+              <a class="navLink" href="index">home</a>
             </li>
             <li class="navItem">
-              <a class="navLink" href="about.html">about</a>
+              <a class="navLink" href="about">about</a>
             </li>
             <li class="navItem">
-              <a class="navLink" href="novels.html">novels</a>
+              <a class="navLink" href="novels">novels</a>
             </li>
             <li class="navItem">
-              <a class="navLink" href="shortStories.html">short stories</a>
+              <a class="navLink" href="shortStories">short stories</a>
             </li>
         </ul>
       </nav>
@@ -94,7 +94,7 @@
           </div>
         </div>
         <div class="flexParent flexBtnContainer">
-          <a href="aNewLondonRising.html"><button class="primary-btn flexChild">READ</button></a>
+          <a href="aNewLondonRising"><button class="primary-btn flexChild">READ</button></a>
           <a href="https://www.amazon.com/New-London-Rising-Cyberpunk-Cities/dp/1517418240" target="_blank"><button class="secondary-btn flexChild">BUY</button></a>
         </div>
         <!-- FlexBox Book One END -->
@@ -111,7 +111,7 @@
           </div>
         </div>
         <div class="flexParent flexBtnContainer lastNovelBtnContainer">
-          <a href="theFallOfShanghai.html"><button class="primary-btn flexChild">READ</button><a>
+          <a href="theFallOfShanghai"><button class="primary-btn flexChild">READ</button><a>
           <a href="https://www.amazon.com/Fall-Shanghai-Cyberpunk-Cities-Future/dp/1516999096" target="_blank"><button class="secondary-btn flexChild">BUY</button></a>
         </div>
         <!-- FlexBox Book One END -->
@@ -129,7 +129,7 @@
 <div class="flexKing">
   <!-- first short story link -->
   <div class="deskStory">
-      <a href="sayGoodByeToTime.html">
+      <a href="sayGoodByeToTime">
         <div id="sayGoodByeToTime" class="flexParent storyContainer">
         <h1 class="flexChild storyTitle">say goodbye to Time</h1>
         <p class="flexChild storyTagline">A journey to the center of the universe.</p>
@@ -140,7 +140,7 @@
   <!-- end deskStory one -->
   <div class="deskStory">
   <!-- second short story link -->
-      <a href="deadMansParable.html">
+      <a href="deadMansParable">
         <div id="deadMansParable" class="flexParent storyContainer">
         <h1 class="flexChild storyTitle">Dead Man's Parable</h1>
         <p class="flexChild storyTagline">The final avowal of a Mars badlands bandit.</p>
@@ -151,7 +151,7 @@
   <!-- second short story link end -->
  <!-- third story link -->
  <div class="deskStory">
-  <a href="taleOfTheFirestarter.html">
+  <a href="taleOfTheFirestarter">
     <div id="taleOfTheFirestarter" class="flexParent storyContainer">
     <h1 class="flexChild storyTitle">The Tale of the Firestarter</h1>
     <p class="flexChild storyTagline">Some heroes are born. Others are forged in flame.
@@ -165,7 +165,7 @@
 </div>
 <!-- end of flexKing -->
 
-  <a href="shortStories.html"><button class="tertiary-btn center-btn">See All Stories</button></a>
+  <a href="shortStories"><button class="tertiary-btn center-btn">See All Stories</button></a>
 
 
         <div class="main-content">
@@ -179,7 +179,7 @@
     <footer>
       <div class="footerDiv">
         <p class="footerText">web and words © W.B. Bjorn</p>
-        <p class="attribution"><a class="attribution" id="attribution-link" href="credits.html">Credits and Attribution</a></p>
+        <p class="attribution"><a class="attribution" id="attribution-link" href="credits">Credits and Attribution</a></p>
       </div>
     </footer>
 
